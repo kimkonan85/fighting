@@ -2,7 +2,7 @@ import React from "react";
 import * as ReactDOMClient from 'react-dom/client';
 import { ThemeProvider } from "styled-components";
 import App from "./App";
-import { darkTheme, lightTheme } from "./theme";
+
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
